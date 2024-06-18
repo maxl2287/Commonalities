@@ -62,7 +62,7 @@ components:
         NOTE: the MNO might support only a subset of these options. The API invoker can provide multiple identifiers to be compatible across different MNOs. In this case the identifiers MUST belong to the same device.
    type: object
    properties:
-    phoneNumber:
+    telephoneNumber:
      $ref: "#/components/schemas/PhoneNumber"
     networkAccessIdentifier:
      $ref: "#/components/schemas/NetworkAccessIdentifier"
